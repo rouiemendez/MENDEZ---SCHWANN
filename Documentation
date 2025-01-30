@@ -1,3 +1,19 @@
 # Project Title
+
 Mandelbrot Set Visualization using Python
+
 # What is the purpose of your Project 
+
+This project is about drawing a special kind of picture called the Mandelbrot set. 
+It’s made by doing a math recipe over and over to see how numbers behave. Some numbers stay calm, and others zoom off 
+We color the picture based on how quickly the numbers escape. 
+The result is a beautiful, swirly design that looks like art but comes from math
+
+# How does your program work how to run it
+
+This program creates the Mandelbrot set by dividing the screen into tiny points, each representing a number on a math grid 
+(called the complex plane). For each point, the program repeats a math formula to see if the number stays small or grows big. 
+It keeps track of how many steps it takes for the number to "escape," and uses those steps to pick a color for that point. 
+When all the points are colored, the Mandelbrot fractal appears
+To run the program, install Python, ensure matplotlib and numpy are installed, save the code in a file (e.g., mandelbrot.py), 
+and run it with python mandelbrot.py.
